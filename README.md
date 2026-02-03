@@ -10,6 +10,6 @@
   - 27.01.2026 Використовували CMS open data МК файл для процесів із ttbar та методи ROOT TTree::GetEntry(), TTree::Draw(), RdataFrame для побудови розподілів різних кінматичних змінних і обчислення ефективності обмежень на поперечний імпульс лептонів. Розбирали різницю між імперативним та декларативним стилями програмування.
      - [слайди1](https://github.com/zenaiev/hep2026_codes/blob/main/20260127/OZ_dataValidation_Top_2016.12.13.pdf) [слайди2](https://github.com/zenaiev/hep2026_codes/blob/main/20260127/cms_od_ttbar.pdf) 
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260127/play_ttbar.py)
-  - 03.02.2026 Будували кінматичні розподіли топ і антитоп кварків, рахували кореляції між ними.
+  - 03.02.2026 Розбирали різницю між імперативним та декларативним стилями програмування. Будували кінематичні розподіли топ і антитоп кварків, рахували кореляції між ними.
      - [слайди](https://github.com/zenaiev/hep2026_codes/blob/main/20260203/programing_styles.pdf)
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260203/play_ttbar.py)
