@@ -14,3 +14,7 @@
      - [слайди](https://github.com/zenaiev/hep2026_codes/blob/main/20260203/programming_styles.pdf)
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260203/play_ttbar.py)
      - Домашнє завдання: порахувати кореляцію між px(top) i px(antitop) використовуючи декларативний стиль програмування (без циклу по подіях).
+  - 10.02.2026 Рахували кореляцію між px(top) i px(antitop) з використанням RDataFrame. Малювали графіки кореляцій імпульсів px, py нейтрино на генераторному рівні і МЕТ на детекторному рівні.
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260210/play_ttbar.py)
+     - [ноутбук гугл коллаб](https://github.com/zenaiev/hep2026_codes/tree/main/20260210/play_ttbar.ipynb)
+     - Домашнє завдання: порахувати кореляцію (до числа) між px(nu)+px(nubar) та px(MET), py(nu)+py(nubar) та py(MET).
