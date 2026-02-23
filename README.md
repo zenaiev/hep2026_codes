@@ -19,5 +19,5 @@
      - [ноутбук гугл коллаб](https://github.com/zenaiev/hep2026_codes/tree/main/20260210/play_ttbar.ipynb)
      - Домашнє завдання: порахувати кореляцію (до числа) між px(nu)+px(nubar) та px(MET), py(nu)+py(nubar) та py(MET).
   - 17.02.2026 Рахували кореляційні матриці для різних величин, використовували argparse.
-     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260210/play_ttbar.py)
-     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260224/corr.py)
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260217/play_ttbar.py)
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260217/corr.py)
