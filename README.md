@@ -23,3 +23,6 @@
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260217/corr.py)
   - 24.02.2026 Рахували метчінг (співставлення) між генераторним і реконструйованими рівнями для лептонів.
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260224/matching.py)
+  - 03.03.2026 Рахували метчінг (співставлення) між генераторним і реконструйованими рівнями для лептонів, записували нове дерево, рахували кореляції та роздільну здатність.
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260303/matching.py)
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260303/corr.py)
