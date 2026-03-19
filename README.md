@@ -21,8 +21,12 @@
   - 17.02.2026 Рахували кореляційні матриці для різних величин, використовували argparse.
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260217/play_ttbar.py)
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260217/corr.py)
-  - 24.02.2026 Рахували метчінг (співставлення) між генераторним і реконструйованими рівнями для лептонів.
+  - 24.02.2026 Рахували метчінг20260312 (співставлення) між генераторним і реконструйованими рівнями для лептонів.
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260224/matching.py)
   - 03.03.2026 Рахували метчінг (співставлення) між генераторним і реконструйованими рівнями для лептонів, записували нове дерево, рахували кореляції та роздільну здатність.
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260303/matching.py)
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260303/corr.py)
+  - 12.03.2026 Рахували метчінг (співставлення) між генераторним і реконструйованими рівнями використовуючи RDataFrame (C++ код).
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260312/matching_rdf.cxx)
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260312/matching.py)
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260312/corr.py)
