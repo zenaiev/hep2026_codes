@@ -52,11 +52,12 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description="Compute correlations")
   parser.add_argument("--names", "-n", type=str, required=True, help="variables (comma separated)")
   parser.add_argument("--input_file", "-i", type=str, default='ttbarSel_merged.root', help="input ROOT file")
+  parser.add_argument("--tree_name", "-t", type=str, default='tree', help="TTree name")
   parser.add_argument("--nrepeat", type=int, default=1, help="number of files")
   args = parser.parse_args()
 
   ROOT.EnableImplicitMT() # parallel
-  rdf = ROOT.RDataFrame('tree', [args.input_file]*args.nrepeat)
+  rdf = ROOT.RDataFrame(args.tree_name, [args.input_file]*args.nrepeat)
   variables = args.names.split(',')
 
   covs, cors = compute_correlation(rdf, variables)

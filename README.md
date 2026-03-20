@@ -30,3 +30,6 @@
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260312/matching_rdf.cxx)
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260312/matching.py)
      - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260312/corr.py)
+  - 20.03.2026 Рахували метчінг (співставлення) для електронів і мюонів, розглядали анфолдінг TUnfold
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260320/matching_rdf.cxx)
+     - [слайди по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260320/unfolding.pdf)
