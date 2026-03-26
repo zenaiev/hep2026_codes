@@ -35,6 +35,6 @@
      - [слайди по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260320/unfolding.pdf)
   - 24.03.2026 Продовжували розглядати анфолдінг TUnfold, рахували матрицю відгуку
      - [слайди по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260320/unfolding.pdf)
-     - [код по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/unfolding.py)
-     - [код по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/unfolding.cpp)
+     - [код по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/unfold.py)
+     - [код по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/unfold.cpp)
      - [код для матриці відгуку](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/matching.py)
