@@ -38,3 +38,6 @@
      - [код по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/unfold.py)
      - [код по TUnfold](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/unfold.cpp)
      - [код для матриці відгуку](https://github.com/zenaiev/hep2026_codes/tree/main/20260324/matching.py)
+  - 27.03.2026 Рахували матрицю відгуку, розподіли на реконструйованому і генераторному рівнях, чистоту та стабільність
+     - [код для матриці відгуку](https://github.com/zenaiev/hep2026_codes/tree/main/20260327/matching.py)
+     - [Данило]
