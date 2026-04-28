@@ -73,21 +73,21 @@ def invert(h_resp, h_rec):
   return h_unfold
 
 # here implement unfolding (or any algorithm to restore rec -> gen distribution)
-# you can pass extra arguments (responce matrix etc.)
+# you can pass extra arguments (response matrix etc.)
 def magic(h_rec):
   return h_rec
 
 
 class TestUnfolding(unittest.TestCase):
   def test_pvalue(self):
-    # this file should be used for responce matrix
+    # this file should be used for response matrix
     fname1 = 'ntuples-mc/TTJets_TuneZ2_7TeV-madgraph-tauola/00000/ttbarSel_merged.root'
     # this file should be used fore actual comparison (like data)
     fname2 = 'ntuples-mc/TTJets_TuneZ2_7TeV-madgraph-tauola/00001/ttbarSel_merged.root'
     # download these ROOT files from here (~ 1 GB):
     # https://cernbox.cern.ch/s/UmbXF1XxVrT4whQ
 
-    # do something with fname1 here (responce matrix...)
+    # do something with fname1 here (response matrix...)
 
     # now process fname2
     t2 = ROOT.TChain('tree')
