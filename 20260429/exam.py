@@ -52,26 +52,6 @@ def make_results(h_restored, h_gen, label):
   print(f'{label} chi2_per_dof = {chi2:.2f}/{h_gen.GetNbinsX()} = {chi2_per_dof:.2f}, p = {p}')
   return p
 
-def invert(h_resp, h_rec):
-  nx = h_resp.GetNbinsX()  # rec
-  ny = h_resp.GetNbinsY()  # gen
-  R = np.zeros((nx, ny))
-  for i in range(nx):
-    for j in range(ny):
-      R[i, j] = h_resp.GetBinContent(i+1, j+1)
-  for j in range(ny):
-    s = np.sum(R[:, j])
-    if s > 0:
-      R[:, j] /= s
-  Rinv = np.linalg.inv(R)
-  v_rec = np.array([h_rec.GetBinContent(i+1) for i in range(nx)])
-  v_gen = np.matmul(Rinv, v_rec)
-  h_unfold = h_met_gen.Clone("h_unfold")
-  h_unfold.Reset()
-  for i in range(ny):
-    h_unfold.SetBinContent(i+1, v_gen[i])
-  return h_unfold
-
 # here implement unfolding (or any algorithm to restore rec -> gen distribution)
 # you can pass extra arguments (response matrix etc.)
 def magic(h_rec):
