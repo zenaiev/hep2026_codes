@@ -47,7 +47,7 @@
   - 29.04.2026 Розбирали LHCb аналіз по пошуку CP асиметрії в розпаді прекрасних лямбда баріонів
      - [слайди по LHCb](https://github.com/zenaiev/hep2026_codes/tree/main/20260429/Zenaiev-lb2dpk-20210622.pdf)
      - Завершили обрахунок матриці відгуку, розподілів на реконструйованому і генераторному рівнях, чистоти та стабільністі для електронів, мюонів та джетів:
-     - [код на іспит](https://github.com/zenaiev/hep2026_codes/tree/main/20260429/matching.py)
+     - [код](https://github.com/zenaiev/hep2026_codes/tree/main/20260429/matching.py)
      - Завдання на іспит: імплементувати будь-який алгоритм розгортання (unfolding) для реконструкції розподілу MET (missing energy transverse), досягти успішного виконнаня тесту:
      - [код на іспит](https://github.com/zenaiev/hep2026_codes/tree/main/20260429/exam.py)
 
