@@ -85,8 +85,8 @@ class TestUnfolding(unittest.TestCase):
     h_met_gen.Sumw2()
     for i in tqdm.tqdm(range(nevents2)):
       t2.GetEntry(i)
-      met_rec = np.sqrt((mcNu[0]+mcNubar[0])**2+(mcNu[1]+mcNubar[1])**2)
-      met_gen = np.sqrt(metPx[0]**2+metPy[0]**2)
+      met_gen = np.sqrt((mcNu[0]+mcNubar[0])**2+(mcNu[1]+mcNubar[1])**2)
+      met_rec = np.sqrt(metPx[0]**2+metPy[0]**2)
       h_met_gen.Fill(met_gen)
       h_met_rec.Fill(met_rec)
 
